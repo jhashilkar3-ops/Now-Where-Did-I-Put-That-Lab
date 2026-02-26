@@ -1,3 +1,9 @@
+#ifndef WHERE_HPP
+#define WHERE_HPP
+
 #include <string>
 
-std::string hello();
+int where(const std::string& str, char query);
+int where(const std::string& str, const std::string& query);
+
+#endif
